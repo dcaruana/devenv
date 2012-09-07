@@ -7,6 +7,7 @@ export MONGO_HOME=$DEV_HOME/software/mongodb-osx-x86_64-1.8.1
 export PATH=$PATH:$MONGO_HOME/bin
 
 # Aliases
+alias create="source create.sh"
 alias workon="source workon.sh"
 alias mongo="source mongo.sh"
 alias mongod="source mongod.sh"
