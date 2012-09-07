@@ -8,6 +8,7 @@ export PATH=$PATH:$MONGO_HOME/bin
 
 # Aliases
 alias create="source create.sh"
+alias update="source update.sh"
 alias workon="source workon.sh"
 alias mongo="source mongo.sh"
 alias mongod="source mongod.sh"
