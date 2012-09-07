@@ -12,6 +12,6 @@ alias mongo="source mongo.sh"
 alias mongod="source mongod.sh"
 alias couchdb="source couchdb.sh"
 alias eclipse="source eclipse.sh"
-alias projects="source projects.sh"
+alias dev="source dev.sh"
 
 cd $DEV_HOME
