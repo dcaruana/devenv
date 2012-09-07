@@ -16,3 +16,5 @@ alias eclipse="source eclipse.sh"
 alias dev="source dev.sh"
 
 cd $DEV_HOME
+
+echo -n -e "\033]0;Dev Env\007"
