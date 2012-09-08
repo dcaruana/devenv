@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# Dev Env
-export DEV_BIN_HOME=$DEV_HOME/projects/devenv/bin
-
 # Aliases
 alias create="source create.sh"
 alias update="source update.sh"
