@@ -17,6 +17,6 @@ else
         export DEV_PROJECT=$1
         export DEV_PROJECT_HOME=$DEV_HOME/projects/$1
         echo -n -e "\033]0;Project $DEV_PROJECT\007"
-        cd $DEV_PROJECT_HOME
+        cd $DEV_PROJECT_HOME/code
     fi
 fi
