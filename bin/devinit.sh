@@ -16,6 +16,9 @@ alias dev="source dev.sh"
 # MongoDB
 export MONGO_HOME=$DEV_HOME/software/mongodb-osx-x86_64-1.8.1
 
+# Datomic
+export DATOMIC_HOME=$DEV_HOME/software/datomic-free-0.8.3789
+
 # Path
 export PATH=$PATH:$MONGO_HOME/bin
 
