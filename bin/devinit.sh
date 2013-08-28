@@ -14,6 +14,12 @@ alias rabbit="source rabbit.sh"
 alias eclipse="source eclipse.sh"
 alias dev="source dev.sh"
 
+# MySQL
+export MYSQL_HOME=/usr/local/mysql
+
+# Java
+export JAVA_HOME=`/usr/libexec/java_home -v 1.7`
+
 # MongoDB
 export MONGO_HOME=$DEV_HOME/software/mongodb-osx-x86_64-2.4.1
 
@@ -26,7 +32,10 @@ export DATOMIC_HOME=$DEV_HOME/software/datomic-free-0.8.3789
 # Play Framework
 export PLAY_HOME=$DEV_HOME/software/play-2.1.0
 
+# ImageMagick
+export IMAGEMAGICK_HOME=$DEV_HOME/software/ImageMagick
+
 # Path
-export PATH=$PATH:$PLAY_HOME:$MONGO_HOME/bin
+export PATH=$PATH:$PLAY_HOME:$MONGO_HOME/bin:$MYSQL_HOME/bin:$IMAGEMAGICK_HOME/bin
 
 initDevEnv
